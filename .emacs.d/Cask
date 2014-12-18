@@ -1,0 +1,12 @@
+(source melpa)
+
+(depends-on "auto-complete")
+(depends-on "dockerfile-mode")
+(depends-on "drupal-mode")
+(depends-on "flx-ido")
+(depends-on "magit")
+(depends-on "pallet")
+(depends-on "projectile")
+(depends-on "smartparens")
+(depends-on "yaml-mode")
+(depends-on "yasnippet")
