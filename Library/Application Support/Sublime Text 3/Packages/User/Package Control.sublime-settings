@@ -1,0 +1,26 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Codecs33",
+		"ConvertToUTF8",
+		"DashDoc",
+		"DocBlockr",
+		"Drupal",
+		"Drupal Snippets",
+		"Emmet",
+		"GitGutter",
+		"Homebrew-formula-syntax",
+		"JsFormat",
+		"Live CSS",
+		"Package Control",
+		"SFTP",
+		"SideBarEnhancements",
+		"subDrush",
+		"SublimeLinter",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}
