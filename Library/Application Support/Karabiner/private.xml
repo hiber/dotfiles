@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+  <name>Remap Capslock to Hyper</name>
+  <appendix>OS X doesn't have a Hyper. This maps Capslock to
+      Control + Option + Command.</appendix>
+
+  <identifier>space_cadet.capslock_to_hyper</identifier>
+
+  <autogen>--KeyToKey-- KeyCode::F19, KeyCode::COMMAND_L,
+  ModifierFlag::OPTION_L | ModifierFlag::CONTROL_L</autogen>
+  </item>
+</root>
