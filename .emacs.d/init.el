@@ -137,9 +137,9 @@
     (setq system-uses-terminfo nil)
     (setq shell-pop-term-shell "/bin/zsh")
     (setq shell-pop-shell-type '("ansi-term"
-                             "*ansi-term*"
-                             (lambda
-                               nil (ansi-term shell-pop-term-shell)))))
+				 "*ansi-term*"
+				 (lambda
+				   nil (ansi-term shell-pop-term-shell)))))
   :bind(("C-t" . shell-pop)))
 
 (use-package yasnippet
@@ -182,7 +182,13 @@
   :mode ("\\.hbs\\'" . web-mode))
 (use-package js2-mode
   :ensure t
-  :mode "\\.js\\'")
+  :mode (("\\.js$" . js2-mode)
+         ("\\.json$" . js2-mode))
+  :config
+  (progn
+    (setq js-indent-level 2
+          js2-indent-level 2
+          js2-basic-offset 2)))
 (use-package json-reformat :ensure t)
 (use-package yaml-mode :ensure t)
 (use-package markdown-mode
