@@ -4,7 +4,7 @@ antigen bundles <<EOF
 npm
 bower
 colored-man
-sindresorhus/pure
+nojhan/liquidprompt
 zsh-users/zsh-completions src
 zsh-users/zsh-syntax-highlighting
 EOF
