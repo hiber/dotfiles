@@ -122,14 +122,7 @@
 	 ("C-x C-f" . helm-find-files)
 	 ))
 
-(use-package helm-dash
-  :ensure t
-  :config
-  (progn
-					;(setq helm-dash-browser-func 'w3m-browse-url)
-    (add-hook 'php-mode-hook (lambda () (setq-local helm-dash-docsets '("PHP"))))
-    )
-  )
+(use-package dash-at-point :ensure t)
 
 (use-package shell-pop
   :ensure t
