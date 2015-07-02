@@ -36,6 +36,12 @@
 (eval-when-compile
   (require 'use-package))
 
+(use-package exec-path-from-shell
+  :ensure t
+  :demand exec-path-from-shell
+  :init
+  (exec-path-from-shell-initialize))
+
 (use-package popwin
   :ensure t
   :init ())
