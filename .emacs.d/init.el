@@ -33,7 +33,8 @@
 (global-set-key (kbd "C-c C-k") 'compile)
 
 
-(require 'use-package)
+(eval-when-compile
+  (require 'use-package))
 
 (use-package popwin
   :ensure t
