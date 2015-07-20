@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/drush.git]
+checkout = vcsh clone -b drush git@github.com:hiber/dotfiles.git drush

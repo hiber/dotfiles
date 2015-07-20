@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/composer.git]
+checkout = vcsh clone -b composer git@github.com:hiber/dotfiles.git composer

@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/emacs.git]
+checkout = vcsh clone -b emacs git@github.com:hiber/dotfiles.git emacs

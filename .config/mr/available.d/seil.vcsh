@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/seil.git]
+checkout = vcsh clone -b seil git@github.com:hiber/dotfiles.git seil

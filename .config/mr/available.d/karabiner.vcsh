@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/karabiner.git]
+checkout = vcsh clone -b karabiner git@github.com:hiber/dotfiles.git karabiner

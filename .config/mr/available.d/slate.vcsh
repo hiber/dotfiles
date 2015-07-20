@@ -1,0 +1,2 @@
+[$HOME/.config/vcsh/repo.d/slate.git]
+checkout = vcsh clone -b slate git@github.com:hiber/dotfiles.git slate
