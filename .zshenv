@@ -1,6 +1,6 @@
 export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.composer/vendor/bin:$PATH
-export PATH=$(brew --prefix homebrew/php/php56)/bin:$PATH
+export PATH=$(/usr/local/bin/brew --prefix homebrew/php/php56)/bin:$PATH
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 if [[ -e /usr/local/opt/chruby/share/chruby ]]; then
