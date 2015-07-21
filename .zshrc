@@ -1,4 +1,4 @@
-source $HOME/.antigen/antigen.zsh
+source `brew --prefix`/share/antigen.zsh
 antigen use oh-my-zsh
 antigen bundles <<EOF
 npm
