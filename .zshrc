@@ -1,4 +1,4 @@
-source `brew --prefix`/share/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundles <<EOF
 npm
@@ -10,11 +10,6 @@ zsh-users/zsh-syntax-highlighting
 EOF
 antigen apply
 
-if [[ -f $HOME/.composer/vendor/drush/drush/drush.complete.sh ]]; then
-  autoload bashcompinit
-  bashcompinit
-  source $HOME/.composer/vendor/drush/drush/drush.complete.sh
-fi
 # rm -f ~/.zcompdump; compinit
 
 HISTSIZE=1000
