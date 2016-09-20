@@ -42,6 +42,11 @@
 (require 'bind-key)
 
 ;; Interface Enhancement
+(use-package swiper
+  :config
+  (ivy-mode)
+  :bind
+  (("C-s" . swiper)))
 (use-package neotree)
 ;; Visual
 (use-package linum-relative
@@ -126,7 +131,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (php-refactor-mode ggtags linum-relative company which-key rainbow-delimiters yaml-mode yagist web-mode use-package swift-mode smartparens smart-mode-line skewer-mode shell-pop projectile popwin php-auto-yasnippets neotree multiple-cursors markdown-mode magit less-css-mode json-reformat git-gutter geben flx-ido expand-region exec-path-from-shell drupal-mode dockerfile-mode auto-complete))))
+    (swiper php-refactor-mode ggtags linum-relative company which-key rainbow-delimiters yaml-mode yagist web-mode use-package swift-mode smartparens smart-mode-line skewer-mode shell-pop projectile popwin php-auto-yasnippets neotree multiple-cursors markdown-mode magit less-css-mode json-reformat git-gutter geben flx-ido expand-region exec-path-from-shell drupal-mode dockerfile-mode auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
