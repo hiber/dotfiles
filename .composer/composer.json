@@ -1,6 +1,5 @@
 {
     "require": {
-        "drush/drush": "dev-master",
         "phpunit/phpunit": "~4.4",
         "psy/psysh": "0.4.*",
         "kherge/box": "~2.5"
