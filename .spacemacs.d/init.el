@@ -47,6 +47,7 @@ values."
      javascript
      (markdown :variables markdown-live-preview-engine 'vmd)
      php
+     yaml
 
      ;; Source control
      git
